@@ -27,7 +27,7 @@ try:
         raise NameError("传说中的狸猫也才9条命,贵为超人最多只能拥有20条命。")
 except (NameError,SyntaxError) as e_value:
     print("\033[33;1m改命不成功！初始%s条命.%s\033[0m"%(olive,e_value))
-    if olive != 2 and olive != 5: exit(1)
+    if olive != 20 and olive != 5: exit(1)
 except (KeyboardInterrupt, EOFError):
     print('\nBye-bye')
     exit(2)
