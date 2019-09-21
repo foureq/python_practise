@@ -90,12 +90,12 @@ try:
     请选择正确答案:''' % num)
     num=topic(num,'B')
 
-    taking = raw_input('''.python算术运算符中，和模运算相关的符号是？
+    taking = raw_input('''%S.python算术运算符中，和模运算相关的符号是？
       A./
       B.//
-      C.%
+      C.%%
       D.**
-    请选择正确答案:''')
+    请选择正确答案:''' % num)
     num=topic(num,'C', 'A是相除，B得商，C求余也称求模，D幂运算')
 
     taking = raw_input('''%s.python3运算函数 round() 的结果为四舍六入五成偶，round(5/2)等于？
