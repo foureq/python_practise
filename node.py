@@ -90,7 +90,7 @@ try:
     请选择正确答案:''' % num)
     num=topic(num,'B')
 
-    taking = raw_input('''%S.python算术运算符中，和模运算相关的符号是？
+    taking = raw_input('''%s.python算术运算符中，和模运算相关的符号是？
       A./
       B.//
       C.%%
